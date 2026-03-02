@@ -1,0 +1,540 @@
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: hsl(27, 100%, 50%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo .icon {
+    font-size: 30px;
+}
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #1e1e2f;
+    color: rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #111122;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: hsl(15, 100%, 67%);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-nav {
+    background-color: #ff0000; /* Red background */
+    color: #fff;               /* White text */
+    border: 1px solid #ff0000; /* Red border */
+    padding: 8px 16px;         /* Button padding */
+    border-radius: 5px;        /* Rounded corners */
+    margin: 5px;               /* Margin around button */
+    cursor: pointer;           /* Pointer on hover */
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.btn-nav:hover {
+    background-color: #cc0000; /* Darker red on hover */
+    border-color: #cc0000;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.profile-img {
+    width: 300px;        /* Bigger size */
+    height: 300px;       /* Make it square */
+    object-fit: cover;   /* Prevent stretching */
+    border-radius: 10px; /* Slight rounded corners (optional) */
+    margin-bottom: 20px;
+    border: 4px solid #ff5e57; 
+    /* Theme border color */
+}
+
+/* ===== ABOUT SECTION ===== */
+
+#about {
+    text-align: center;
+    color: #ff0000;   /* All text red */
+}
+
+/* Container */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+/* ===== FULL PAGE ===== */
+
+body {
+    background-color: #000000;   /* Full page black */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== ABOUT SECTION ===== */
+
+#about {
+    text-align: center;
+    padding: 80px 10%;
+    background-color: #000000;   /* Keep section black */
+}
+
+/* About Section Heading (About Me) */
+#about h2 {
+    color: #ff0000;   /* 🔴 About Me text red */
+    margin-bottom: 40px;
+}
+
+/* Container */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* ===== FULL PAGE ===== */
+
+body {
+    background-color: #000000;   /* Full page black */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+//* ===== FULL PAGE BACKGROUND ===== */
+body {
+    margin: 0;
+    background-color: #000000;   /* Black background */
+    font-family: Arial, sans-serif;
+}
+
+/* ===== ABOUT SECTION ===== */
+#about {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #000000;   /* Keep section black */
+}
+
+/* About Me Heading */
+#about h2 {
+    color: #ff0000;   /* 🔴 Red heading */
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+/* Container */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* Common Card Style */
+.about-card {
+    background-color: #1a1a1a;   /* Dark card */
+    border: 2px solid #ff0000;   /* Red border */
+    border-radius: 12px;
+    padding: 30px;
+    width: 420px;
+    transition: 0.3s ease;
+}
+
+/* Image Card */
+.image-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Right Text Card */
+.about-card h3 {
+    color: #ffffff;   /* White heading inside card */
+    margin-bottom: 20px;
+}
+
+.about-card p {
+    color: #ffffff;   /* White paragraph text */
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* Hover Effect */
+.about-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-card {
+        width: 90%;
+    }
+}
+/* ===== SKILLS SECTION ===== */
+.section.dark {
+    background-color: #111;   /* Dark background */
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section.dark h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ff3c3c;   /* RED heading */
+}
+
+/* Container holding cards */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Individual cards */
+.skill-card {
+    background-color: #1a1a2e;
+    padding: 25px;
+    border-radius: 12px;
+    width: 250px;
+
+    border: 2px solid #222;   /* Default border */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+/* Hover effect with RED border */
+.skill-card:hover {
+    transform: translateY(-8px);
+    border-color: #ff3c3c;   /* RED highlight */
+    box-shadow: 0 15px 30px rgba(255,60,60,0.4);
+}
+
+/* Skill title */
+.skill-card h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #ff3c3c;   /* RED title */
+}
+
+/* List styling */
+.skill-card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.skill-card ul li {
+    margin: 8px 0;
+    font-size: 16px;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Red bullet point */
+.skill-card ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #ff3c3c;   /* RED bullet */
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+/* ===== PROJECT SECTION ===== */
+
+#projects {
+    text-align: center;
+    background: #000000;   /* Black background */
+    padding: 80px 10%;
+    color: #ff0000;   /* Make all text red */
+}
+
+/* Section Heading */
+#projects h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff0000;
+}
+
+/* Container */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+/* Project Card */
+.project-card {
+    background: #111111;   /* Dark card */
+    width: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+
+    border: 2px solid #330000;   /* Dark red border */
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.2);
+
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.project-card:hover {
+    transform: translateY(-10px);
+    border-color: #ff0000;   /* Bright red highlight */
+    box-shadow: 0 15px 30px rgba(255, 0, 0, 0.6);
+}
+
+/* Image */
+.project-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Content */
+.project-content {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Project Title */
+.project-content h3 {
+    color: hsl(0, 100%, 99%);
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.project-content p {
+    color: hsl(0, 15%, 92%);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Button */
+.btn-small {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-small:hover {
+    background: #cc0000;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ===== EDUCATION SECTION ===== */
+
+#education {
+    background-color: #000000;   /* Black background */
+    padding: 80px 10%;
+    text-align: center;
+}
+
+/* Section Title */
+.section-title h2 {
+    color: #ff0000;   /* Red Heading */
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #ffffff;   /* White subtitle */
+    margin-bottom: 50px;
+}
+
+/* Container */
+.education-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Education Card */
+.education-card {
+    background-color: #1a1a1a;   /* Dark card */
+    color: #ffffff;              /* White text */
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+
+    border: 2px solid #ff0000;   /* 🔴 Red border */
+    transition: 0.3s ease;
+}
+
+/* Card Heading */
+.education-card h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Year */
+.year {
+    display: block;
+    color: #ff0000;   /* Red year */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Hover Effect */
+.education-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .education-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education-card {
+        width: 90%;
+    }
+}
+
+
+/* Contact Section */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center horizontally */
+    justify-content: center; /* center vertically if needed */
+    min-height: 100vh; /* full screen height */
+    background-color: #000; /* black background */
+    color: #fff; /* white text */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact .section-title h2 {
+    color: #ff0000; /* red "Contact Me" */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contact .section-title p {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px; /* form width */
+    background-color: #111; /* slightly lighter black form */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(255,0,0,0.3); /* red shadow */
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ff0000; /* red border */
+    background: #000; /* black input background */
+    color: #fff; /* white text */
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff0000; /* red focus */
+    outline: none;
+}
+
+.contact-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #ff0000; /* red button */
+    color: #fff; /* white button text */
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #cc0000; /* darker red on hover */
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .contact .section-title h2 {
+        font-size: 2rem;
+    }
+    .contact .section-title p {
+        font-size: 1rem;
+    }
+}
